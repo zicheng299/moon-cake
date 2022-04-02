@@ -21,6 +21,8 @@ public class MainApp {
         for (int i = 0; i < players.size(); i++) {
             System.out.println(players.get(i).getIndex() + "号玩家：" + players.get(i).getName());
         }
+
+        //测试分支代码合并
         sc.nextLine();
         sc.nextLine();
         System.out.println("-------------------- 设置奖池 ----------------------");

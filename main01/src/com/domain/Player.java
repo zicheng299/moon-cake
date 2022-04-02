@@ -1,5 +1,8 @@
 package com.domain;
 
+import lombok.Data;
+
+@Data
 public class Player {
     private String name;
     private String prize;
@@ -11,30 +14,6 @@ public class Player {
     public Player(String name, String prize, int index) {
         this.name = name;
         this.prize = prize;
-        this.index = index;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPrize() {
-        return prize;
-    }
-
-    public void setPrize(String prize) {
-        this.prize = prize;
-    }
-
-    public int getIndex() {
-        return index;
-    }
-
-    public void setIndex(int index) {
         this.index = index;
     }
 }

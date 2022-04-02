@@ -23,6 +23,7 @@ public class MainApp {
         }
         sc.nextLine();
         sc.nextLine();
+        //测试代码冲突
         System.out.println("-------------------- 设置奖池 ----------------------");
         ArrayList<Award> awards = setAwards();
         System.out.println("博饼\t奖品\t   数量");
